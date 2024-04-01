@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+}
+
+.logo {
+  height: 200px;
+  margin-left: 5%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+header nav div.navitem {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+header nav div .search,
+.navLink {
+  margin-left: 1.5rem;
+  white-space: nowrap;
+}
+
+input::placeholder {
+  color: #6d8389;
+  opacity: 1;
+}
+
+.cardImage {
+  height: 20rem;
+  width: 13.5rem;
+}
